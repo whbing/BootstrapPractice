@@ -1,0 +1,14 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+/*½ø¶ÈÌõ*/
+.progress {
+    margin-bottom: 15px;
+}
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}

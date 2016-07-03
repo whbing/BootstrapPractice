@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>WOW.js中文网 | WOW.js教程 | 网页滚动动画效果</title>
+    <link rel="stylesheet" href="bootstrap.css"/>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/animate.css/3.1.0/animate.min.css"/>
+    <link rel="stylesheet" href="prism.css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="http://wow.js.bootku.com/" class="navbar-brand">WOW.JS中文网</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!--小屏幕导航按钮和logo-->
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="http://wow.js.bootku.com" class="navbar-brand">WOW.JS中文网</a>
+                </div>
+                <!--小屏幕导航按钮和logo-->
+                <!--导航-->
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#yongyou">拥有WOW.JS</a></li>
+                        <li><a href="#xiaoguo">看看效果</a></li>
+                        <li><a href="#jiaocheng">使用教程</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="http://7xl4sr.dl1.z0.glb.clouddn.com/wow.js.rar" target="_blank">下载WOW.JS</a></li>
+                        <li><a href="http://7xl4sr.dl1.z0.glb.clouddn.com/animate.css.rar" target="_blank">下载animate.css</a></li>
+                    </ul>
+                </div>
+                <!--导航-->
+            </div>
+        </nav>
+    </div>
+</div>
+<section id="yongyou" class="pdtb80">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>WOW.js 值得你拥有！</h2>
+                <p>自从拥有WOW.JS，客户也是醉了！</p>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+                <a href="http://7xl4sr.dl1.z0.glb.clouddn.com/wow.js.rar" target="_blank" class="btn btn-default">下载wow.js</a>
+                <a href="http://7xl4sr.dl1.z0.glb.clouddn.com/animate.rar" target="_blank"class="btn btn-default">下载animate.css</a>
+                <p>wow.js和animate.css就像打火机和香烟，请不要把他们分开！所以你的一起下载！</p>
+            </div>
+            <div class="col-md-1">
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<section id="xiaoguo" class="pdtb80">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>WOW.js 让你的网页富有生命</h2>
+                <p>先来看看下面两兄弟的舞姿！</p>
+            </div>
+            <div class="col-md-6">
+                <div class=" well wow  swing" data-wow-iteration="9999">我是“swing”，我喜欢摇摆，让我们一起摇摆！</div>
+            </div>
+            <div class="col-md-6">
+                <div class=" well wow bounce " data-wow-iteration="9999">我是“bounce”，你现在是不是看见我在不停的跳动，根本停不下来？</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="jiaocheng">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>WOW.js 使用教程</h2>
+                <p>简单实用，可能还要加一个炫酷，才能表达出WOW的本性！</p>
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-left">1、引入animate.css文件</h3>
+                <pre><code class="language-css"><span class="token function">&lt;link rel="stylesheet" href="css/animate.min.css"&#62;<span class="token punctuation"></span></span></code></pre>
+
+                <h3 class="text-left">2、引入wow.js文件</h3>
+                <pre><code class="language-css"><span class="token function">&lt;script src="wow.min.js"&#62;&lt;/script&#62;<span class="token punctuation"></span></span></code></pre>
+
+                <h3 class="text-left">3、JavaScript</h3>
+                <pre class="language-javascript"><code class=" language-javascript"><span class="token function">new WOW().init();<span class="token punctuation"></span></span></code></pre>
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-left">4、自定义配置(可选)</h3>
+                <pre class="language-javascript"><code class=" language-javascript">var wow = new WOW({
+boxClass: 'wow',
+animateClass: 'animated',
+offset: 0,
+mobile: true,
+live: true
+ });
+wow.init();</code>
+                </pre>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="row text-center">
+        <div class="col-md-12">
+            <p>
+                本网站所列开源项目的中文版文档全部由WOW.JS中文网成员翻译整理，并全部遵循 CC BY 3.0协议发布。
+            </p>
+            <p>
+                <a href="http://www.miibeian.gov.cn/" target="_blank">蜀ICP备13000518号</a>
+                &nbsp;&nbsp;
+                <a href="http://wow.js.bootku.com/">WOW.JS中文网</a>
+                &nbsp;&nbsp;
+                <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256051482'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1256051482%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+            </p>
+        </div>
+    </div>
+
+</footer>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="http://apps.bdimg.com/libs/wow/0.1.6/wow.min.js"></script>
+<script src="prism.js"></script>
+<script>
+    $(function(){
+        new WOW().init();
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    padding-top: 50px ;
+    color: #c8c8c8;
+    background-color: #272b30;
+}
+
+#yongyou , #xiaoguo , #jiaocheng {
+    padding: 80px;
+    text-align: center;
+}
+#xiaoguo{
+    background: #3B4045;
+}
+.col-md-12 , .col-md-12 {
+    margin-bottom: 10px;
+}
+h2 {
+    margin-bottom: 40px;
+}
+h3 {
+    font-size: 18px;
+}
+ p{
+    margin-top: 20px;
+}
+ #xiaoguo p{
+     padding-bottom: 50px;
+ }
+ pre{
+     border: 1px solid #000000;
+     margin-bottom: 50px;
+ }

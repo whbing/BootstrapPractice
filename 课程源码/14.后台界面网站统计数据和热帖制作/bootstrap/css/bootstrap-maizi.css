@@ -1,0 +1,11 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px ;
+}
